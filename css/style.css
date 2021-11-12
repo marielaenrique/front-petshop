@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:ital,wght@0,100;0,400;1,700&display=swap');
+body {font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 1025px;
+}
+.encabezado {background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+}
+.navegacion {background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+.bienvenida {color: #3C2313;
+    font-size: 30px;
+    text-align: center;
+}
+.banner {background-image: url(../img/bowl.png);
+    background-repeat: no-repeat;
+    color: #3C2313;
+    font-size: 16px;
+    height: 409px;
+    text-align: center;
+}
+.boton {background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+h1 {color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+}
+.categorias {color: #666666;
+    font-size: 15px;
+}
+.descripcion {color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+.precio {color: #F0A83E;
+    font-size: 15px;
+    font-weight: 500;
+}
+.icons {background-color: #3C2313;
+}
+.contacto {color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.detalle {color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+.derechos {background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
