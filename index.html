@@ -6,73 +6,125 @@
         <link href="CSS/style.css" rel="stylesheet">
         <title>Petshop</title>
     </head>
+
     <body>
         <header>
-            <section class="encabezado">
+            <section class="barra">
                 <span>Grandes ofertas en comederos</span>
                 <nav>
-                    <ul type="none">
-                        <li>Español</li>
-                        <li>ARG$</li>
+                    <ul class="lista" type="none">
+                        <li class="idioma">Español <i class="fas fa-chevron-down"></i></li>
+                        <li>ARG$ <i class="fas fa-chevron-down"></i></li>
                     </ul>
                 </nav>
             </section>
-            <section class="navegacion">
+
+            <section class="menu">
                 <img src="img/logo.png" alt="Logo Front Cat & Dog">
-                    <nav>
-                        <ul type="none">
-                            <li><i class="fas fa-paw"></i> Categorías</li>
-                            <li><i class="fas fa-paw"></i> Pets</li>
-                            <li><i class="fas fa-paw"></i> Nosotros</li>
-                            <li><i class="fas fa-paw"></i> Contactanos</li>
-                        </ul>
-                    </nav>
+                <nav>
+                    <ul class="nav" type="none">
+                        <li><i class="fas fa-paw"></i> Categorías</li>
+                        <li><i class="fas fa-paw"></i> Pets</li>
+                        <li><i class="fas fa-paw"></i> Nosotros</li>
+                        <li><i class="fas fa-paw"></i> Contactanos</li>
+                    </ul>
+                </nav>
             </section>
         </header>
+
         <main>
-            <br>
-            <section class="bienvenida">
-                <span>¡Es un placer tenerte aquí!</span>            
-            </section>
             <section class="banner">
-                <br>
-                <p>¡Comederos en descuento!</p>
-                <span class="boton">COMEDEROS</span>
+                <span class="saludo">¡Es un placer tenerte aquí!</span>
+                <span class="descuento">¡Comederos en descuento!</span>
+                <span class="comederos">COMEDEROS</span>
             </section>
-            <section>
-                <h1>Productos Destacados</h1>
-                <p class="categorias">Comederos - Accesorios - Comida</p>
-                <img src="img/churrasquito.png" alt="Imagen churrascos">
-                <p class="descripcion">Juguete Churrasquito</p>
-                <p class="precio">$150</p>
-                <img src="img/comedero.png" alt="Imagen comedero">
-                <p class="descripcion">Comedero para perro</p>
-                <p class="precio">$250</p>
-                <img src="img/huesito.png" alt="Imagen huesito">
-                <p class="descripcion">Juguete Huesito</p>
-                <p class="precio">$650</p>
+
+            <section class="productos">
+                <div class="destacados">
+                    <img src="img/pawprint.png" alt="Imagen huella">
+                    <h1>Productos Destacados</h1>
+                    <span class="categorias">Comederos - Accesorios - Comida</span>
+                </div>
+
+                <div class="opciones">
+                    <article class="item">
+                        <img src="img/churrasquito.png" alt="Imagen churrascos">
+                        <span class="descripcion">Juguete Churrasquito</span>
+                        <span class="precio">$150</span>
+                    </article>
+
+                    <article class="item">
+                        <img src="img/comedero.png" alt="Imagen comedero">
+                        <span class="descripcion">Comedero para perro</span>
+                        <span class="precio">$250</span>
+                    </article>
+
+                    <article class="item">
+                        <img src="img/huesito.png" alt="Imagen huesito">
+                        <span class="descripcion">Juguete Huesito</span>
+                        <span class="precio">$650</span>
+                    </article>
+                </div>
+
+                <div class="formulario">
+                    <h2>Contáctanos</h2>
+                    <span class="datos">Nombre y Apellido</span>
+                    <span class="datos">Ingresá tu correo electrónico</span>
+                    <span class="datos">Teléfono</span>
+                    <div class="botones">
+                        <button class="reset">Resetear</button>
+                        <button class="send">Enviar</button>
+                    </div>
+                </div>
             </section>
         </main>
+
         <footer>
-            <section class="icons">
-            <p><img src="img/map.png" alt="Ícono punto de ubicación"></p>
-            <p class="contacto">Localidad</p>
-            <span class="detalle">Calle - Provincia</span>
-            <br>
-            <img src="img/phone.png" alt="Ícono teléfono">
-            <br>
-            <p class="contacto">Número de teléfono</p>
-            <span class="detalle">15-111-111-111</span>
-            <br>
-            <img src="img/mail.png" alt="Ícono correo">
-            <br>
-            <p class="contacto">Correo electrónico</p>
-            <span class="detalle">sarasa@msn.com</span>
-            <br>
-            <img src="img/footer.png" alt="Logo Front Cat & Dog">
+            <section class="top">
+                <div class="left">
+                    <img src="img/envelope.png" alt="Imagen sobre">
+                    <span class="news">Suscríbete para más novedades</span>
+                </div>
+                <div>
+                    <button class="ingresa">Ingresá tu correo electrónico</button>
+                    <button class="suscribe">Suscribirme</button>
+                </div>
             </section>
-            <section class="derechos">
-            <p>Todos los derechos reservados Front End</p>
+
+            <section class="middle">
+                <div class="icons">
+                    <div class="gps">
+                        <img src="img/map.png" alt="Ícono punto de ubicación">
+                        <div class="letras">
+                            <span class="contacto">Localidad</span>
+                            <span class="detalle">Calle - Provincia</span>
+                        </div>
+                    </div>
+
+                    <div class="gps">
+                        <img src="img/phone.png" alt="Ícono teléfono">
+                        <div class="letras">
+                            <span class="contacto">Teléfono</span>
+                            <span class="detalle">Número de teléfono</span>
+                        </div>
+                    </div>
+
+                    <div class="gps">
+                        <img src="img/mail.png" alt="Ícono correo">
+                        <div class="letras">
+                            <span class="contacto">Correo electrónico</span>
+                            <span class="detalle">Dirección de correo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="img/footer.png" alt="Logo Front Cat & Dog">
+                </div>
+            </section>
+
+            <section class="bottom">
+                <p>Todos los derechos reservados Front End</p>
             </section>
         </footer>
     </body>
